@@ -4,31 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projekt</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https: //fonts.googleapis.com/css2?family= Raleway:wght@700 & family = Roboto:wght@400;500;700;900 & display=swap"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
     <style>
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https: //fonts.googleapis.com/css2?family= Raleway:wght@700 & family = Roboto:wght@400;500;700;900 & display=swap" rel="stylesheet">
+      body {
+        font-family: "Raleway", sans-serif;
+        font-family: "Roboto", sans-serif;
+      }
     </style>
   </head>
   <body>
     <header>
+      <div class="logo">
+        <a href="index.html">
+          <span class="blue">Web</span><span class="black">Studio</span>
+        </a>
+      </div>
+
       <nav>
-        <a href="#"> Web Studio </a>
-        <ul>
-          <li><a href="#">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="#">Kontakt</a></li>
+        <ul class="nav-list">
+          <li>
+            <a class="nav-list-item" href="#">Agencja</a>
+          </li>
+          <li>
+            <a class="nav-list-item" href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-list-item" href="#">Kontakt</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48111111111</a></li>
+      <ul class="nav-list">
+        <li>
+          <a class="nav-list-item" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="nav-list-item" href="tel:+48111111111">+48111111111</a>
+        </li>
       </ul>
     </header>
     <main>
       <section>
         <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button type="button">Zamów usługę</button>
+        <button class="button" type="button">Zamów usługę</button>
       </section>
 
       <section>
@@ -152,12 +178,23 @@
     </main>
 
     <footer>
-      <a href="#">Web Studio</a>
-      <address>
-        <span>m. Warszawa, Aleje Jerozolimskie 21</span>
-        <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="+48111111111">+481111 111 1111</a></li>
+      <div class="logo">
+        <a href="index.html">
+          <span class="blue">Web</span><span class="black">Studio</span>
+        </a>
+      </div>
+
+      <address >
+        <p><span class="location">m. Warszawa, Aleje Jerozolimskie 21</span></p>
+        <ul class="contact">
+          <li>
+            <a class="contact-item" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-item" href="+48111111111">+481111 111 1111</a>
+          </li>
         </ul>
       </address>
     </footer>

@@ -1,0 +1,142 @@
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 6%;
+  text-align: center;
+  color: #ffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+
+a {
+  color: #757575;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav-list {
+  color: #757575;
+}
+.nav-list-item {
+  font-family: "Roboto";
+  font-style: medium;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: left;
+  letter-spacing: 2%;
+  color: #757575;
+}
+.nav-list-item:hover {
+  color: #2196f3;
+}
+
+.contact {
+  color: #757575;
+}
+
+.contact-item {
+  color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba (255, 255, 255, 0, 6);
+}
+
+.contact-item:hover {
+  color: #212121;
+}
+
+.black {
+  color: black;
+}
+.blue {
+  color: #2196f3;
+}
+.location {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.location:hover {
+  text-decoration: underline;
+}
+.button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
+}
+
+.filter {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #212121;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
+}
+
+.filter:hover {
+  color: #ffffff;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  line-height: 171%;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 6%;
+}
+
+.image-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 30px;
+  line-height: 160%;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 3%;
+  color: #757575;
+}

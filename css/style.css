@@ -1,28 +1,36 @@
+:root {
+  --blue-color: #2196f3;
+  --grey-color: #757575;
+  --white-color: #ffffff;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--white-color);
+}
+
 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 6%;
   text-align: center;
-  color: #ffff;
+  color: var(--white-color);
+  background-color: #2f303a;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  background: #e5e5e5;
-}
+
 .logo {
   font-family: "Raleway";
   font-style: bold;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 3%;
   text-align: left;
 }
 
 a {
-  color: #757575;
+  color: var(--grey-color);
   text-decoration: none;
 }
 
@@ -31,23 +39,23 @@ a:hover {
 }
 
 .nav-list {
-  color: #757575;
+  color: var(--grey-color);
 }
 .nav-list-item {
   font-family: "Roboto";
   font-style: medium;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-align: left;
   letter-spacing: 2%;
-  color: #757575;
+  color: var(--grey-color);
 }
 .nav-list-item:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 
 .contact {
-  color: #757575;
+  color: var(--grey-color);
 }
 
 .contact-item {
@@ -56,13 +64,13 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba (255, 255, 255, 0, 6);
 }
 
 .contact-item:hover {
-  color: #212121;
+  color: var(--blue-color);
 }
 
 .black {
@@ -76,9 +84,9 @@ a:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 .location:hover {
   text-decoration: underline;
@@ -88,14 +96,15 @@ a:hover {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--white-color);
+  background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
+  border: none;
 }
 
 .filter {
@@ -103,18 +112,20 @@ a:hover {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #212121;
-  background: #2196f3;
+  background: var(--white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
+  border: none;
 }
 
 .filter:hover {
-  color: #ffffff;
+  color: var(--white-color);
+  background-color: var(--blue-color);
 }
 
 h3 {
@@ -122,7 +133,7 @@ h3 {
   font-style: bold;
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   line-height: 171%;
   text-align: left;
   vertical-align: top;
@@ -133,10 +144,10 @@ h3 {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
   line-height: 160%;
   text-align: left;
   vertical-align: top;
   letter-spacing: 3%;
-  color: #757575;
+  color: var(--grey-color);
 }

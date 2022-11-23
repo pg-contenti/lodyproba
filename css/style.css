@@ -41,7 +41,7 @@ body {
   text-decoration: none;
 }
 
-a:hover {
+.nav-list a:hover {
   color: var(--blue-color);
 }
 
@@ -61,7 +61,7 @@ a:hover {
   color: var(--blue-color);
 }
 
-h1 {
+.title {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 44px;
@@ -69,7 +69,6 @@ h1 {
   letter-spacing: 6%;
   text-align: center;
   color: var(--white-color);
-  background-color: var(--dark-grey-color);
 }
 
 .button {
@@ -88,7 +87,7 @@ h1 {
   border: none;
 }
 
-h3 {
+.lorem-impsum-title {
   font-family: "Roboto";
   font-style: bold;
   font-weight: 700;
@@ -100,7 +99,7 @@ h3 {
   letter-spacing: 3%;
 }
 
-div p {
+.lorem-ipsum {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
@@ -109,7 +108,7 @@ div p {
   color: var(--grey-color);
 }
 
-h2 {
+.subtitle {
   font-family: "Roboto";
   font-style: bold;
   font-weight: 700;

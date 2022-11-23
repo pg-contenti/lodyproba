@@ -3,51 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Projekt</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       rel="stylesheet"
-      href="https: //fonts.googleapis.com/css2?family= Raleway:wght@700 & family = Roboto:wght@400;500;700;900 & display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     />
     <link rel="stylesheet" href="css/style.css" />
 
     <style>
       body {
-        font-family: "Raleway", sans-serif;
         font-family: "Roboto", sans-serif;
       }
     </style>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <a href="index.html">
-          <span class="blue">Web</span><span class="black">Studio</span>
-        </a>
-      </div>
-
       <nav>
+        <a class="logo" href="index.html"
+          >Web<span class="black">Studio</span></a
+        >
         <ul class="nav-list">
           <li>
-            <a class="nav-list-item" href="#">Agencja</a>
+            <a href="#">Agencja</a>
           </li>
           <li>
-            <a class="nav-list-item" href="portfolio.html">Portfolio</a>
+            <a href="portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a class="nav-list-item" href="#">Kontakt</a>
+            <a href="#">Kontakt</a>
           </li>
         </ul>
       </nav>
-      <ul class="nav-list">
+      <ul class="contacts-list">
         <li>
-          <a class="nav-list-item" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
+          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li>
-          <a class="nav-list-item" href="tel:+48111111111">+48111111111</a>
+          <a href="tel:+48111111111">+48111111111</a>
         </li>
       </ul>
     </header>
@@ -56,18 +50,18 @@
       <nav>
         <ul>
           <li><button class="filter" type="button">Wszystkie</button></li>
-          <li><button class="filter"type="button">Strony</button></li>
-          <li><button class="filter"type="button">Aplikacje</button></li>
-          <li><button class="filter"type="button">Dizajn</button></li>
-          <li><button class="filter"type="button">Marketing</button></li>
+          <li><button class="filter" type="button">Strony</button></li>
+          <li><button class="filter" type="button">Aplikacje</button></li>
+          <li><button class="filter" type="button">Dizajn</button></li>
+          <li><button class="filter" type="button">Marketing</button></li>
         </ul>
       </nav>
     </div>
 
-    <section class="projects">
-      <ul class="projects-list list">
-        <li class="projects-item">
-          <figure class="projects-photo">
+    <section>
+      <ul>
+        <li>
+          <figure class>
             <img
               alt="photo of screen"
               src="images/technocrack.jpg"
@@ -178,27 +172,21 @@
             </figcaption>
           </figure>
         </li>
-        
-          <footer>
-            <div class="logo">
-              <a href="index.html">
-                <span class="blue">Web</span><span class="black">Studio</span>
-              </a>
-            </div>
-      
-            <address >
-              <p><span class="location">m. Warszawa, Aleje Jerozolimskie 21</span></p>
-              <ul class="contact">
-                <li>
-                  <a class="contact-item" href="mailto:info@example.com"
-                    >info@example.com</a
-                  >
-                </li>
-                <li>
-                  <a class="contact-item" href="+48111111111">+481111 111 1111</a>
-                </li>
-              </ul>
-            </address>
-          </footer>
-  </body>
-</html>
+      </ul>
+    </section>
+
+    <footer>
+      <a class="logo" href="index.html">Web<span class="white">Studio</span></a>
+      <nav>
+        <p><span class="location">m. Warszawa, Aleje Jerozolimskie 21</span></p>
+        <ul class="footer-contacts">
+          <li>
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a href="tel:+48111111111">+48111111111</a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </html>

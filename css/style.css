@@ -9,6 +9,29 @@
 body {
   font-family: "Roboto", sans-serif;
   background: var(--white-color);
+  margin: 0;
+}
+
+.main-title {
+  background-color: #2f3032;
+  padding-top: 200px;
+  height: 600px;
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.section {
+  width: auto;
+  padding-top: 94p;
+  padding-bottom: 94px;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  padding-left: 0px;
 }
 
 .logo {
@@ -17,11 +40,14 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 3%;
-  text-align: left;
+  letter-spacing: 0.03em;
   color: var(--blue-color);
   text-decoration: none;
+  border: none;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
+
 .black {
   color: var(--black-color);
 }
@@ -29,12 +55,23 @@ body {
   color: var(--white-color);
 }
 
+.nav-list {
+  display: flex;
+  margin-top: 32px;
+  margin-left: 47px;
+  box-sizing: border-box;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 46px;
+  padding-left: 92px;
+}
+
 .nav-list a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--black-color);
   text-decoration: none;
 }
@@ -44,12 +81,21 @@ body {
   color: var(--blue-color);
 }
 
+.contacts-list {
+  display: flex;
+  margin-top: 32px;
+  gap: 50px;
+  list-style-type: none;
+  gap: 50px;
+  padding-left: 372px;
+}
+
 .contacts-list a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   text-align: left;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   color: var(--grey-color);
   text-decoration: none;
 }
@@ -63,24 +109,39 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  letter-spacing: 6%;
+  padding-left: 280px;
+  padding-right: 237px;
+  letter-spacing: 0.06em;
   text-align: center;
   color: var(--white-color);
 }
 
-.button {
-  font-style: normal;
+.portfolio-buttons {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 6px;
+  justify-content: center;
+}
+
+.main-button {
+  text-align: center;
+}
+
+.button-text {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--white-color);
+  cursor: pointer;
   background: var(--blue-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0, 15);
   border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
 }
 
 .articles h3 {
@@ -90,15 +151,31 @@ body {
   line-height: 100%;
   text-align: left;
   vertical-align: top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
+}
+
+.articles {
+  display: flex;
+  list-style-type: none;
+  padding-top: 94px;
 }
 
 .articles p {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 3%;
+  letter-spacing: 0.03;
   color: var(--grey-color);
+}
+
+.images-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+img {
+  max-width: 100%;
 }
 
 .subtitle {
@@ -108,42 +185,92 @@ body {
   line-height: 100%;
   text-align: center;
   vertical-align: top;
-  letter-spacing: 3%;
+  letter-spacing: 0.03;
   color: var(--black-color);
+  margin-top: 0;
+}
+
+.team-container {
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  list-style-type: none;
+  text-align: center;
 }
 
 .team-member {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   line-height: 100%;
-  text-align: Center;
-  vertical-align: Top;
-  letter-spacing: 3%;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03;
   color: var(--black-color);
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-section {
+  padding: 94px 30px;
+  outline: 1px;
+}
+.content-section-portfolio {
+  padding: 94px 30px;
+  outline: 1px;
+  outline: 1px solid #f5f4fa;
+}
+.team-image {
+  width: "270";
+  height: "368";
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white-color);
+  margin-left: 0;
+  padding-right: 0;
+}
+
 .team-position {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   line-height: 100%;
-  text-align: Center;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  color: var(--grey-color);
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+  color: var(#2f3032);
+  padding-top: 10px;
 }
 
-footer {
+.footer-address {
   background-color: var(--dark-grey-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.location {
+.localization {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 3%;
+  letter-spacing: 0.03;
   color: var(--white-color);
+}
+
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  list-style-type: none;
+  padding-left: 0px;
 }
 
 .footer-contacts a {
@@ -151,7 +278,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   text-align: left;
-  letter-spacing: 3%;
+  letter-spacing: 0.03;
   color: var(--footer-color);
   text-decoration: none;
 }
@@ -162,13 +289,15 @@ footer {
 }
 
 .filter {
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   display: flex;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--black-color);
   background: #f5f4fa;
@@ -182,14 +311,26 @@ footer {
   background-color: var(--blue-color);
 }
 
-.image-title {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.87;
-  line-height: 160%;
-  text-align: left;
-  vertical-align: top;
-  letter-spacing: 3%;
-  color: var(--grey-color);
+.portfolio-grid {
+  flex-wrap: wrap;
+}
+
+.box-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.portfolio-images {
+  border: 2px solid #eeeeee;
+  background-color: var(--white-color);
+  gap: 30px;
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.image-portfolio-title {
+  padding-left: 24px;
 }

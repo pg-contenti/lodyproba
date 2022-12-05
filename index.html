@@ -10,51 +10,65 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
-
     <style>
       body {
         font-family: "Roboto", sans-serif;
       }
     </style>
   </head>
+
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="index.html"
-          >Web<span class="black">Studio</span></a
-        >
-        <ul class="nav-list">
-          <li>
-            <a href="#">Agencja</a>
-          </li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Kontakt</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="contacts-list">
-        <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a href="tel:+48111111111">+48111111111</a>
-        </li>
-      </ul>
-    </header>
-    <main>
-      <section style="background-color: #2f3032">
-        <div>
+    <!--sekcja menu adresowego-->
+    <div class="container">
+      <header>
+        <div class="header-list">
+          <a class="logo" href="index.html"
+            >Web<span class="black">Studio</span></a
+          >
+          <ul class="nav-list">
+            <li>
+              <a href="#">Agencja</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="#">Kontakt</a>
+            </li>
+          </ul>
+          <ul class="contacts-list">
+            <li>
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a href="tel:+48111111111">+48111111111</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <div class="section">
+      <!--sekcja tytułu głównego-->
+      <section class="main-title">
+        <div class="container">
           <h1 class="title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="button" type="button">Zamów usługę</button>
+          <div class="main-button">
+            <button class="button-text">Zamów usługę</button>
+          </div>
         </div>
       </section>
 
+      <!-- sekcja lorem ipsum-->
       <section>
-        <div>
+        <div class="container">
           <ul class="articles">
             <li>
               <h3>LOREM IPSUM</h3>
@@ -87,111 +101,127 @@
           </ul>
         </div>
       </section>
-      <section>
-        <h2 class="subtitle">Czym się zajmujemy</h2>
-        <ul>
-          <li>
-            <img
-              alt="zdjęcie tableta"
-              src="images/tablet.jpg"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              alt="zdjęcie telefonu"
-              src="images/computer.jpg"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              alt="zdjęcie tableta z mozaiką"
-              src="images/tablet-colors.jpg"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="subtitle">Nasz zespół</h2>
-        <ul>
-          <li>
-            <figure>
+      <section class="content-section">
+        <!--sekcja aktywność-->
+        <div class="container">
+          <h2 class="subtitle">Czym się zajmujemy</h2>
+          <div class="images-container">
+            <picture>
               <img
-                alt="zdjęcie projektanta produktu"
-                src="images/product-designer.jpg"
-                width="270"
-                height="260"
+                alt="zdjęcie tableta"
+                src="images/tablet.jpg"
+                width="370"
+                height="294"
               />
-              <figcaption>
-                <span span class="team-member">John Doe</span
-                ><span clas="team-position"><a>Product Designer</a></span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
+            </picture>
+            <picture>
               <img
-                alt="zdjęcie programisty frontend"
-                src="images/frontend-developer.jpg"
-                width="270"
-                height="260"
+                alt="zdjęcie telefonu"
+                src="images/computer.jpg"
+                width="370"
+                height="294"
               />
-              <figcaption>
-                <span span class="team-member"> John Doe</span
-                ><span clas="team-position"><a>Frontend Developer</a></span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                alt="zdjęcie marketingowca"
-                src="images/marketing.jpg"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <span span class="team-member">John Doe</span
-                ><span clas="team-position"><a>Marketing</a></span>
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                alt="zdjęcie ul projektanta"
-                src="images/ui-designer.jpg"
-                width="270"
-                height="260"
-              />
-              <figcaption>
-                <span span class="team-member">John Doe</span
-                ><span clas="team-position"><a>Ul Designer</a></span>
-              </figcaption>
-            </figure>
-          </li>
-        </ul>
-      </section>
-    </main>
+            </picture>
 
-    <footer>
-      <a class="logo" href="index.html">Web<span class="white">Studio</span></a>
-      <nav>
-        <p><span class="location">m. Warszawa, Aleje Jerozolimskie 21</span></p>
-        <ul class="footer-contacts">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+48111111111">+48111111111</a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
+            <picture>
+              <img
+                alt="zdjęcie tableta z mozaiką"
+                src="images/tablet-colors.jpg"
+                width="370"
+                height="294"
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="content-section team-section">
+        <div class="container">
+          <h2 class="subtitle">Nasz zespół</h2>
+          <ul class="team-container">
+            <li>
+              <figure class="team-image">
+                <img
+                  alt="zdjęcie projektanta produktu"
+                  src="images/product-designer.jpg"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <span class="team-member">John Doe</span
+                  ><span class="team-position"><a>Product Designer</a></span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="team-image">
+                <img
+                  alt="zdjęcie programisty frontend"
+                  src="images/frontend-developer.jpg"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <span class="team-member"> John Doe</span
+                  ><span class="team-position"><a>Frontend Developer</a></span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="team-image">
+                <img
+                  alt="zdjęcie marketingowca"
+                  src="images/marketing.jpg"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <span class="team-member">John Doe</span
+                  ><span class="team-position"><a>Marketing</a></span>
+                </figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure class="team-image">
+                <img
+                  alt="zdjęcie ul projektanta"
+                  src="images/ui-designer.jpg"
+                  width="270"
+                  height="260"
+                />
+                <figcaption>
+                  <span class="team-member">John Doe</span
+                  ><span class="team-position"><a>Ul Designer</a></span>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      
+      <!-- sekcja footeru-->
+      <footer class="footer-address">
+        <div class="container">
+          <a class="logo" href="index.html"
+            >Web<span class="white">Studio</span></a
+          >
+          <nav>
+            <p>
+              <span class="localization"
+                >m. Warszawa, Aleje Jerozolimskie 21</span
+              >
+            </p>
+            <ul class="footer-contacts">
+              <li>
+                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a href="tel:+48111111111">+48111111111</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </footer>
+    </nav>
   </body>
 </html>
+

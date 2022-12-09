@@ -28,33 +28,40 @@
   </head>
   <body>
     <header>
-      <div class="container header-list">
-        <a class="logo" href="index.html"
-          >Web<span class="black">Studio</span></a
-        >
-        <ul class="nav-list">
-          <li>
-            <a href="#">Agencja</a>
-          </li>
-          <li>
-            <a href="portfolio.html">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">Kontakt</a>
-          </li>
-        </ul>
-        <ul class="contacts-list">
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a href="tel:+48111111111">+48111111111</a>
-          </li>
-        </ul>
-      </div>
-    </header>
+      <header class="header-nav">
+        <nav class="logo-links">
+          <div class="container flex-container">
+            <div class="flex-links">
+   <a class="logo" href="index.html"
+      >Web<span class="black">Studio</span></a
+    >
+  
+    <ul class="nav-list">
+      <li>
+        <a href="#">Agencja</a>
+      </li>
+      <li>
+        <a href="portfolio.html">Portfolio</a>
+      </li>
+      <li>
+        <a href="#">Kontakt</a>
+      </li>
+    </ul>
+  </div>
+    <ul class="contacts-list">
+      <li>
+        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+      <li>
+        <a href="tel:+48111111111">+48111111111</a>
+      </li>
+    </ul>
+          </div>
+  </nav>
 
-    <section class="content-section-portfolio">
+</header>
+
+    <section class="section">
       <div class="container">
         <nav>
           <ul class="portfolio-buttons">
@@ -66,13 +73,11 @@
           </ul>
         </nav>
 
-        <div class="box-grid portfolio-grid">
+        <div class="box-grid portfolio-grid container">
           <figure class="portfolio-images">
             <img alt="photo of screen" src="images/technocrack.jpg" />
             <figcaption class="image-portfolio-title">
-              <h3>Technocrack</h3>
-              <span class="image-title">Strona internetowa</span>
-            </figcaption>
+              <h3>Technocrack</h3>Strona internetowa</figcaption>
           </figure>
 
           <figure class="portfolio-images">
@@ -81,9 +86,7 @@
               src="images/new-orlean-vs-golden-star.jpg"
             />
             <figcaption class="image-portfolio-title">
-              <h3>Grafika New Orlean vs Golden Star</h3>
-              <span class="image-title">Dizajn</span>
-            </figcaption>
+              <h3>Grafika New Orlean vs Golden Star</h3>Dizajn</figcaption>
           </figure>
 
           <figure class="portfolio-images">
@@ -92,24 +95,20 @@
               src="images/restaurant-sea-food.jpg"
             />
             <figcaption class="image-portfolio-title">
-              <h3>Restauracja Seafood</h3>
-              <span class="image-title">Aplikacja</span>
+              <h3>Restauracja Seafood</h3>Aplikacja
             </figcaption>
           </figure>
 
           <figure class="portfolio-images">
             <img alt="photo of headphones" src="images/project-prime.jpg" />
             <figcaption class="image-portfolio-title">
-              <h3>Projekt Prime</h3>
-              <span class="image-title">Marketing</span>
-            </figcaption>
+              <h3>Projekt Prime</h3>Marketing            </figcaption>
           </figure>
 
           <figure class="portfolio-images">
             <img alt="photo of boxess" src="images/project-boxes.jpg" />
             <figcaption class="image-portfolio-title">
-              <h3>Projekt Boxes</h3>
-              <span class="image-title">Aplikacja</span>
+              <h3>Projekt Boxes</h3>Aplikacja
             </figcaption>
           </figure>
 
@@ -119,9 +118,7 @@
               src="images/inspiration-has-no-borders.jpg"
             />
             <figcaption class="image-portfolio-title">
-              <h3>Inspiration has no Borders</h3>
-              <span class="image-title">Strona internetowa</span>
-            </figcaption>
+              <h3>Inspiration has no Borders</h3>Strona internetowa         </figcaption>
           </figure>
 
           <figure class="portfolio-images">
@@ -130,24 +127,21 @@
               src="images/magazine-limited-edition.jpg"
             />
             <figcaption class="image-portfolio-title">
-              <h3>Magazyn Limited Edition</h3>
-              <span class="image-title">Dizajn</span>
+              <h3>Magazyn Limited Edition</h3>Dizajn
             </figcaption>
           </figure>
 
           <figure class="portfolio-images">
             <img alt="photo of hanger" src="images/project-lab.jpg" />
             <figcaption class="image-portfolio-title">
-              <h3>Projekt LAB</h3>
-              <span class="image-title">Marketing</span>
+              <h3>Projekt LAB</h3>Marketing
             </figcaption>
           </figure>
 
           <figure class="portfolio-images">
             <img alt="photo of laptop" src="images/growing-business.jpg" />
             <figcaption class="image-portfolio-title">
-              <h3>Growing Business</h3>
-              <span class="image-title">Aplikacja</span>
+              <h3>Growing Business</h3>Aplikacja
             </figcaption>
           </figure>
         </div>
@@ -160,15 +154,12 @@
         <a class="logo" href="index.html"
           >Web<span class="white">Studio</span></a
         >
-        <nav>
-          <p>
-            <span class="localization"
+        <ul class="footer-contacts">
+        <li><span class="localization"
               >m. Warszawa, Aleje Jerozolimskie 21</span
-            >
-          </p>
-          <ul class="footer-contacts">
+            ></li>          
             <li>
-              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <span class="mail" href="mailto:info@devstudio.com">info@devstudio.com</span>
             </li>
             <li>
               <a href="tel:+48111111111">+48111111111</a>

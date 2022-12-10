@@ -151,7 +151,7 @@ body {
 }
 
 .portfolio-buttons {
-  margin: 50px;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
   list-style-type: none;
